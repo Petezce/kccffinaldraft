@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clergy Forum - Donate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Make a Donation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="support.html">Support Us</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+            <main>
+                <section class="donation-form">
+                    <h2>Make a Donation</h2>
+                    <p>Your contribution can make a difference.</p>
+                    
+                    <p><strong>Introduction:</strong> This is to finance activities of the KCCF for realization of youth agenda whose life has been transformed by giving out hope to the job seekers.</p>
+                    
+                    <form id="donation-form" action="submit_donation.php" method="post">
+                        <label for="donation-amount">Donation Amount:</label>
+                        <select id="donation-amount" name="donation_amount">
+                            <option value="10">$100</option>
+                            <option value="25">$250</option>
+                            <option value="50">$500</option>
+                            <!-- Add more options -->
+                        </select>
+                        
+                        <label for="custom-amount">Or Enter Custom Amount:</label>
+                        <input type="number" id="custom-amount" name="custom_amount" min="1">
+                        
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="card-number">Card Number:</label>
+                        <input type="text" id="card-number" name="card_number" required>
+                        
+                        <!-- Add more payment fields -->
+                        
+                        <label for="purpose">Purpose of Donation:</label>
+                        <input type="text" id="purpose" name="purpose" placeholder="E.g., Specific Project, General Fund">
+                        
+                        <label for="public-display">Display Name Publicly:</label>
+                        <input type="checkbox" id="public-display" name="public_display">
+                        
+                        <p><strong>Tax Deductibility:</strong> Donations are tax-deductible. Please consult your tax advisor for details.</p>
+                        
+                        <h3>Impact Statements:</h3>
+                        <p>Your contribution will help us achieve:</p>
+                        <ul>
+                            <li>Job creation</li>
+                            <li>Support underprivileged, physically challenged</li>
+                            <li>facilitate capacity building for Clergy</li>
+                            <!-- Add more statements -->
+                        </ul>
+                        
+                        <img src="impact-image.jpg" alt="Impact Image">
+                        
+                        <h3>Transparency:</h3>
+                        <p>Your donations will be used responsibly to fund our programs and projects.</p>
+                        
+                        <label for="donor-recognition">Donor Recognition:</label>
+                        <input type="checkbox" id="donor-recognition" name="donor_recognition">
+                        
+                        <button type="submit" class="cta-button">Donate Now</button>
+                    </form>
+                    
+                    <p>If you have any questions, feel free to contact us at <a href="mailto:mckiiru@yahoo.com">mckiiru@yahoo.com</a>.</p>
+                </section>
+                
+                <section class="confirmation-message">
+                    <h2>Thank You for Your Support!</h2>
+                    <p>Your donation will help create a positive impact in our community.</p>
+                    
+                    <p><strong>Contact Information:</strong> For any inquiries, you can reach us at <a href="mailto:contact@example.com">mckiiru@yahoo.com</a>.</p>
+                    
+                    <p><strong>Keep Track:</strong> You'll receive a confirmation email with details of your donation. You can also log in to our website to track your contributions.</p>
+                    
+                    <p><strong>Social Sharing:</strong> Share your support with your friends and family:</p>
+                    <!-- Add social media sharing buttons here -->
+                </section>
+            </main>
+            <p> BANK DETAILS <br>
+                <br>
+                Cooperative Bank        C350388 Pay No 400222<br>
+                <br>
+                <br>
+                 The 12 districts that comprise the Kiambu County include; <br>
+                 Kiambu, Kiambaa, Kikuyu, Kabete, Lari, Limuru Thika, Ruiru, Juja, Githunguri, Gatundu North and Gatundu South</p>
+           
+                <br>
+                <button type="submit" class="button">Donate</button>
+                <br>
+                <br>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Clergy Forum. All rights reserved.</p>
+    </footer>
+</body>
+</html>
